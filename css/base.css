@@ -1,0 +1,55 @@
+:root{
+    --body-fonte: 'Quicksand', sans-serif;
+    --color-green-50: #a2dbb7;      
+    --color-green-200: #22c55e;
+    --color-green-400: #165d31;
+    --color-light: #ffffff;
+    --body-gradient: linear-gradient(90deg,
+        hsl(146deg 71% 24%) 0%,
+        hsl(146deg 71% 24%) 2%,
+        hsl(146deg 72% 24%) 5%,
+        hsl(147deg 72% 24%) 9%,
+        hsl(147deg 73% 23%) 15%,
+        hsl(148deg 73% 23%) 23%,
+        hsl(148deg 74% 23%) 38%,
+        hsl(149deg 74% 23%) 62%,
+        hsl(149deg 75% 22%) 79%,
+        hsl(150deg 76% 22%) 88%,
+        hsl(150deg 77% 22%) 93%,
+        hsl(151deg 77% 22%) 97%,
+        hsl(151deg 78% 22%) 100%);    
+}
+
+
+/* Reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    /* padding: 0; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-light);
+}
+
+a:hover {
+    color: var(--color-green-200);
+}
+
